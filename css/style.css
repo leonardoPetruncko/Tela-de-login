@@ -79,6 +79,10 @@ body {
     padding: 10px 50px;
     cursor: pointer;
     font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
 }
 
 .btn-primary{
@@ -90,6 +94,17 @@ body {
     background-color: #fff;
     color: #58af9b;
     transition: 0.5s;
+}
+
+.btn-second {
+    background-color: #58af9b;
+    border: 1px solid #58af9b;
+}
+
+.btn-second:hover{
+    background-color: #fff;
+    border: 1px solid #58af9b;
+    color: #58af9b;
 }
 
 .firts-content {
@@ -113,6 +128,10 @@ body {
     align-items: center;
 }
 
+.social-media{
+    margin: 1rem 0 ;
+}
+
 .list-social-media {
     display: flex;
     list-style-type: none;
@@ -127,6 +146,10 @@ body {
     text-align: center;
 }
 
+.item-social-media:not(:first-child){
+    margin-left: 10px;
+}
+
 .item-social-media a{
     color: #95a5a6;
 }
@@ -134,6 +157,26 @@ body {
 .form{
     display: flex;
     flex-direction: column;
+    width: 55%;
+}
+
+.form input {
+    height: 45px;
+    width: 100%;
+    border: none;
+    background-color: #ecf0f1;
+}
+
+.label-input {
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+.icon-modify {
+    color: #7f8c8d;
+    padding: 0 5px;
 }
 
 .second-content {
