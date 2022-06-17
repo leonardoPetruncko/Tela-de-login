@@ -41,6 +41,45 @@ body {
     left: 0;
 }
 
+.title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.title-primary{
+    color: #fff;
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+}
+
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: #58af9b;
+    transition: 0.5s;
+}
+
 .firts-content {
     display: flex;
 }
